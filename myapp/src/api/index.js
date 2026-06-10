@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3002';
+const BASE_URL = 'https://backend-friontened-1.onrender.com';
 
 function getToken() {
   return localStorage.getItem('token');
