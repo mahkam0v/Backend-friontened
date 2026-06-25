@@ -6,9 +6,15 @@
   "author": "",
   "type": "module",
   "main": "app.js",
+
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
