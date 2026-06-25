@@ -39,8 +39,8 @@ const startServer = async () => {
     await AppDataSource.initialize()
     console.log("🚀 Postgres TypeORM orqali ulandi")
 
-    await startBot()
-    console.log("🤖 Telegram bot ishga tushdi")
+    // await startBot()
+    // console.log("🤖 Telegram bot ishga tushdi")
 
     app.listen(PORT, () => {
       console.log(`📡 Server running on port ${PORT}`)
